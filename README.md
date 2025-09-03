@@ -1,5 +1,10 @@
 # InnovativeMLHub-2025
 
+[![Stars](https://img.shields.io/github/stars/yashthakur2006/InnovativeMLHub-2025?style=flat)](https://github.com/yashthakur2006/InnovativeMLHub-2025/stargazers)
+[![CI](https://img.shields.io/github/actions/workflow/status/yashthakur2006/InnovativeMLHub-2025/ci.yml?branch=main)](https://github.com/yashthakur2006/InnovativeMLHub-2025/actions)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
+
 Curated, **original** ML projects for 2025: climate resilience, quantum-inspired optimization,
 privacy-preserving FL, multimodal IoT fusion, cultural heritage restoration, ethical recommenders,
 bioacoustics for urban biodiversity, green AutoML, and more.
