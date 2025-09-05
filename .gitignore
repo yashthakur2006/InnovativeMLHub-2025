@@ -1,0 +1,84 @@
+# --- Python basics ---
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# --- Virtual envs / package managers ---
+.venv/
+venv/
+env/
+.conda/
+.mamba/
+
+# --- Jupyter / notebooks ---
+.ipynb_checkpoints/
+*.ipynb_autosave
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- Logs / experiments / dashboards ---
+*.log
+logs/
+wandb/
+lightning_logs/
+mlruns/                # MLflow
+runs/                  # TensorBoard default
+events.out.tfevents.*
+
+# --- Data caches / HF / misc ---
+.cache/
+.huggingface/
+huggingface/
+hf_cache/
+datasets/
+data/                  # keep only tiny samples; add a .gitkeep if you need the folder
+# If you want to keep an empty data dir:
+# !data/.gitkeep
+
+# --- Model weights / artifacts (use LFS or releases instead) ---
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.tflite
+
+# --- Media / generated outputs ---
+outputs/
+figures/
+samples/
+*.mp4
+*.avi
+*.mov
+*.gif
+
+# --- Tests / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Env / secrets (commit an example instead) ---
+.env
+.env.*
+!.env.example
+
+# --- Node (if you add a small web demo) ---
+node_modules/
+
+# --- Docker / Compose artifacts (optional) ---
+*.pid
