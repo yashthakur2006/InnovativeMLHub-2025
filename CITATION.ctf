@@ -3,8 +3,7 @@ title: InnovativeMLHub-2025
 message: "If you use this repository, please cite it."
 type: software
 authors:
-  - family-names: Thakur
-    given-names: Yash
+  - given-names: Yash Thakur
 repository-code: https://github.com/yashthakur2006/InnovativeMLHub-2025
 version: 0.1.0
 date-released: 2025-09-03
